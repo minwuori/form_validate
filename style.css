@@ -1,0 +1,16 @@
+body {
+	margin-left: 40px;
+}
+.error { 
+border-color: red;
+}
+
+.errorMessage {
+  margin-top: 5px;
+  color: red;
+  display: none;
+}
+
+button {
+	margin-top: 10px;
+}

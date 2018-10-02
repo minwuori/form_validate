@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+    <h3>Вопрос 1</h3>
+    <div class = "quest" data-quest = "1">
+      <div>
+        <label >
+        <input type="radio" name="answer" data-option = "1" class="option" >
+        Вариант 1 
+      </label >
+      </div>
+      <div>
+        <label >
+        <input type="radio" name="answer" data-option = "2" class="option">
+        Вариант 2
+        </label>
+      </div>
+      <div>
+        <label >
+        <input type="radio" name="answer" data-option = "3" class="option">
+        Вариант 3
+        </label>
+      </div>
+      <div>
+        <label >
+        <input type="radio" name="answer" data-option = "4" class="option">
+        Вариант 4
+        </label>
+      </div>
+      <div class = "errorMessage error-non-check"> Выберите вариант ответа</div>
+    </div>
+
+    
+
+    <h3>Вопрос 2</h3>
+    <div class = "quest" data-quest = "2">
+      <div>
+        <label>
+        <input type="checkbox" data-option = "1" class="option">
+        Вариант 1
+        </label>
+      </div>
+      <div>
+        <label>
+        <input type="checkbox" data-option = "2" class="option">
+        Вариант 2
+        </label>
+      </div>
+      <div>
+        <label>
+        <input type="checkbox" data-option = "3" class="option">
+        Вариант 3
+        </label>
+      </div>
+      <div>
+        <label>
+        <input type="checkbox" data-option = "4" class="option checkbox-another">
+        Другое
+        </label>
+      </div>
+      <div>
+        <textarea cols="30" rows="10" placeholder="Свой вариант" class="text-answer-another"></textarea>
+      </div>
+       <div class = "errorMessage error-non-check"> Выберите вариант ответа</div>
+       <div class = "errorMessage error-empty-field"> Введите ответ</div>
+    </div>
+
+
+    <h3>Вопрос 3</h3>
+    <div class = "quest" data-quest = "3">
+      <textarea cols="30" rows="10" placeholder="Введите ваш ответ" class="text-answer"></textarea>
+      <div class = "errorMessage error-empty-field"> Введите ответ</div>
+    </div>
+    
+
+    <button type="button">Отправить</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
